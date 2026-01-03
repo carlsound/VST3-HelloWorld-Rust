@@ -1,0 +1,28 @@
+
+[package]
+name = "my_html_vst3"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+vst3 = "0.3"
+wry = "0.39"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+# TAO provides window creation and platform-specific parent APIs
+# We will create a child window under the host's handle and embed the webview
+# into that child window.
+tao = "0.28"
+
+# Windows raw APIs used in the Windows attach logic
+windows = { version = "0.52", features = [
+  "Win32_Foundation",
+  "Win32_System_Com",
+  "Win32_UI_WindowsAndMessaging"
+] }
+
+[features]
+default = []

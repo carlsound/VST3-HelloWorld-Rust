@@ -2,7 +2,7 @@
 [package]
 name = "vst3_skeleton_db_vertical_meters_tooltips"
 version = "0.1.0"
-edition = "2026-01-03"
+edition = "2021"
 
 [lib]
 crate-type = ["cdylib"]

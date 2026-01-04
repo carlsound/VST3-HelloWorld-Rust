@@ -1,6 +1,7 @@
 
-/target/
+target/
 **/*.rs.bk
 *.user
 *.suo
 *.DS_Store
+*.lock

@@ -1,0 +1,27 @@
+{
+  "Version": 1,
+  "ClassInfos": [
+    {
+      "CID": "00000000-0000-0000-0000-000000000001",
+      "Category": "Audio Module Class",
+      "Name": "Vst3Skeleton",
+      "SubCategories": [
+        "Fx"
+      ],
+      "Vendor": "ExampleVendor",
+      "Version": "0.1.0",
+      "SDKVersion": "3.8.0"
+    },
+    {
+      "CID": "00000000-0000-0000-0000-000000000002",
+      "Category": "Component Controller Class",
+      "Name": "Vst3SkeletonController",
+      "Vendor": "ExampleVendor",
+      "Version": "0.1.0",
+      "SDKVersion": "3.8.0"
+    }
+  ],
+  "Vendor": "ExampleVendor",
+  "URL": "https://example.com",
+  "Email": "dev@example.com"
+}
